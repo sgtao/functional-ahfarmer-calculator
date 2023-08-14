@@ -8,6 +8,7 @@ Calculator
 Created with *create-react-app*. See the [full create-react-app guide](https://github.com/facebook/create-react-app/blob/main/packages/cra-template/template/README.md).
 
 - Simple calculator built with React18
+  * [Demo](https://sgtao.github.io/functional-ahfarmer-calculator/)
 
 
 Try It
