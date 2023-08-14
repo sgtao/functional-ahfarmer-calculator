@@ -3,6 +3,7 @@ name: Deploy GitHub Pages
 on:
   pull_request:
     branches: ["main"]
+    types: [closed]
 
   workflow_dispatch:
 
