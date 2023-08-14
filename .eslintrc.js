@@ -40,6 +40,7 @@ module.exports = {
             "exports": "never",
             "functions": "never"
         }],
+        "react/prop-types": "off", // propsの型チェックが外せないのでオフにした
         "no-use-before-define": "off", //関数や変数が定義される前に使われているとエラーになるデフォルトの機能をoff
         "import/prefer-default-export": "off", //named exportがエラーになるので使えるようにoff
         "react/function-component-definition": [//アロー関数以外受け付けない設定
