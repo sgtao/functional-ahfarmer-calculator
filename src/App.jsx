@@ -7,7 +7,7 @@ const App = () => {
       <header className="App-header">
         <h3>{appName}</h3>
       </header>
-      <div className="component-app">app area</div>
+      <div className="component-app">app</div>
     </div>
   );
 };
