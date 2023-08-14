@@ -11,12 +11,18 @@ test('renders learn react link', () => {
 
 test('ButtonコンポーネントをクリックしてStateが更新されるか', () => {
   const { getByText } = render(<App />);
-  console.log(getByText);
-  const displayValue = getByText('0');
+  const displayValue = screen.getByRole('presentation');
 
   // '7'ボタンをクリック
   const button7 = getByText('7');
   fireEvent.click(button7);
+
+  // 表示される値を確認
+  expect(displayValue).toHaveTextContent('7');
+
+  // '+'ボタンをクリック
+  const buttonPlus = getByText('+');
+  fireEvent.click(buttonPlus);
 
   // 表示される値を確認
   expect(displayValue).toHaveTextContent('7');
@@ -26,5 +32,12 @@ test('ButtonコンポーネントをクリックしてStateが更新されるか
   fireEvent.click(button4);
 
   // 表示される値を確認
-  expect(displayValue).toHaveTextContent('74');
+  expect(displayValue).toHaveTextContent('4');
+
+  // '='ボタンをクリック
+  const buttonEqual = getByText('=');
+  fireEvent.click(buttonEqual);
+
+  // 表示される値を確認
+  expect(displayValue).toHaveTextContent('11');
 });

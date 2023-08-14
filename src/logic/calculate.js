@@ -1,5 +1,4 @@
 import Big from 'big.js';
-
 import operate from './operate';
 import isNumber from './isNumber';
 
@@ -13,6 +12,7 @@ import isNumber from './isNumber';
  *   operation:String  +, -, etc.
  */
 export default function calculate(obj, buttonName) {
+  // console.log(`obj : ${obj.total} ${obj.next} ${obj.operation}, buttonName : ${buttonName}`);
   if (buttonName === 'AC') {
     return {
       total: null,

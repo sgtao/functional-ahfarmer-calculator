@@ -4,7 +4,9 @@ const Display = ({ value }) => {
   const shownValue = value;
   return (
     <div className="component-display">
-      <div className="display-value">{shownValue}</div>
+      <div className="display-value" role="presentation">
+        {shownValue}
+      </div>
     </div>
   );
 };
