@@ -136,5 +136,4 @@ describe('calculate function', () => {
     // console.log(result);
     expect(result).toEqual({ total: '1', next: null, operation: null });
   });
-
 });
