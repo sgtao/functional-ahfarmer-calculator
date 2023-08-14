@@ -32,6 +32,8 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: npm install
+      - name: test with coverage
+        run: npm run test-cov
       - name: Build
         run: npm ci && npm run build
         env:
