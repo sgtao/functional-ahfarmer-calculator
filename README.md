@@ -5,14 +5,15 @@ Calculator
 ---
 <img src="LogotypePrimary.png" width="60%" height="60%" />
 
-Created with *create-react-app*. See the [full create-react-app guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+Created with *create-react-app*. See the [full create-react-app guide](https://github.com/facebook/create-react-app/blob/main/packages/cra-template/template/README.md).
 
+- Simple calculator built with React18
 
 
 Try It
 ---
 
-[ahfarmer.github.io/calculator](https://ahfarmer.github.io/calculator/)
+[ahfarmer.github.io/calculator](https://direbunny.github.io/calculator/)
 
 
 
