@@ -7,14 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body .github-fork-ribbon:before {
+  background-color: #333;
+}
+body .github-fork-ribbon {
+  font-size: 0.4em;
 }
 
-@media (min-width: 400px) and (min-height: 400px) {
-  html {
-    font-size: 20px;
+@media screen and (max-width: 500px) {
+  .github-fork-ribbon {
+    display: none;
   }
 }
 
